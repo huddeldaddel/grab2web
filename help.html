@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<title>grab2web 1.0</title>
+	</head>
+	<body>
+	
+		<h3>grab2web 1.0</h3>
+		
+		<h3>What is grab2web?</h3>
+		<p>This program is a small tool to grab images from a video source and put it into the web. grab2web runs in the background
+			and can be reconfigured via a small icon in the system tray.</p>
+		
+		<h3>Requirements</h3>
+		<p>To use grab2web your computer has to fulfill the following requirements:</p>
+		<ol>
+			<li>DirectX 9b has to be installed</li>
+			<li>A video source with WDM driver has to be connected to your computer (e.g. a webcam or a Frame Grabber-Card)</li>
+			<li>You need to have a ftp account on your webserver to upload the images</li>
+			<li>A graphic card with overlay</li>
+		</ol>
+
+		<h3>Automization</h3>
+		<p>grab2web can be run in the background. Therefore all necessary data has to be inserted once into the gui. This data
+			including the ftp password will be stored unencrypted into the windows registry.<br>
+			Once the program has stored this data you can open the program using these parameters:
+		</p>
+		<ol>
+			<li>-h<br>
+			    grab2web will be started minimized</li>
+			<li>-r<br>
+					Image grabbing will be started automatically</li>
+			<li>-c&lt;Folder&gt;<br>
+			    Now the program stores a copy of each picture in the folder "&lt;Folder&gt;". When the path contains spaces
+					you'll need to put the path in quotation marks ("-cC:\Data\My Pictures\Webcam").</li>
+		</ol>
+		
+		<h3>Tips</h3>
+		<p>grab2web uses the jpeg image format to store images. During the capture procedure images are stored as windows bitmaps 
+			internally. Due to the fact that the windows bitmap format can not hold more than 24 bit of color data you should select a 
+			video format with no more than 24 bit of color data. Otherwise your images may be completely white or black.
+		</p>
+		
+		<h3>The License</h3>
+		<p>The program is available under the<a href="http://localhost/two/sonst_mpl.aspx">Mozilla Public License Version 1.1</a>.<br>
+			Author of the program is Thomas Werner.<br>
+			Updates and source code can be found at <a href="http:www.ThomasWerner-Online.de">http:www.ThomasWerner-Online.de</a>.</p>	
+	</body>
+</html>

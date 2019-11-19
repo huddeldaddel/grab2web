@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<title>grab2web 1.0</title>
+	</head>
+	<body>
+	
+		<h3>grab2web 1.0</h3>
+		
+		<h3>Was ist grab2web?</h3>
+		<p>Dieses Programm ist ein kleines Tool um Bilder einer Videoquelle (z.B. einer Webcam) ins Internet zu stellen.
+		  grab2web läuft dabei im Hintergrund und kann über ein Icon in der Symbolleiste jederzeit umkonfiguriert werden.</p>
+		
+		<h3>Voraussetzungen</h3>
+		<p>Um grab2web nutzen zu können, müssen folgende Bedingungen erfüllt sein:</p>
+		<ol>
+			<li>DirectX 9b muss installiert sein</li>
+			<li>Eine Videoquelle mit WDM Treiber muss vorhanden sein (z.B. eine Webcam oder eine Frame Grabber-Karte)</li>
+			<li>FTP-Server für den Upload der Bilddaten</li>
+			<li>Overlayfähige Grafikkarte</li>
+		</ol>
+
+		<h3>Automatisierung des Programmes</h3>
+		<p>grab2web kann automatisch im Hintergrund ausgeführt werden. Dazu müssen alle nötigen Angaben zu Videoquelle und FTP-Server
+		  einmal im Programm hinterlegt worden sein (damit werden automatisch abgespeichert). Bitte beachten Sie, dass auch das Passwort
+			für den FTP-Server unverschlüsselt in der Windows-Registrierung hinterlegt wird.<br>
+			Sind die Daten einmal hinterlegt, kann das Programm mit folgenden Parametern aufgerufen werden:
+		</p>
+		<ol>
+			<li>-h<br>
+			    Dieser Parameter minimiert das Programm direkt nach dem Programmstart</li>
+			<li>-r<br>
+					Dieser Parameter startet die Bildaufzeichnung direkt nach dem Programmstart</li>
+			<li>-c&lt;Ordner&gt;<br>
+			    Dieser Parameter legt eine Kopie jedes angefertigten Bildes im Ordner "&lt;Ordner&gt;" ab. Wenn Ordnerpfad ein Leerzeichen
+					enthält, müssen sie diesen Parameter in Anführungszeichen angeben ("-cC:\Daten\Meine Bilder\Webcam").</li>
+		</ol>
+		
+		<h3>Hinweise</h3>
+		<p>Das Programm verwendet das JPEG-Format zur Speicherung der Bilder. Zwischenzeitlich werden die Bildaten jedoch im Windows 
+			Bitmap Format gehalten. Das Windows Bitmap Format kann nicht mehr als 24 Bit Farbtiefe verwalten. Bitte wählen Sie deshalb
+			nur Video-Format mit einer Farbtiefe kleiner oder gleich 24 Bit, da sonst nur weiße oder schwarze Bilder abgespeichert werden.
+		</p>
+		
+		<h3>Die Lizenz</h3>
+		<p>Das Programm steht unter der <a href="http://localhost/two/sonst_mpl.aspx">Mozilla Public License Version 1.1</a>.<br>
+			Autor des Programmes ist Thomas Werner.<br>
+			Updates und Quelltext können von der Website <a href="http:www.ThomasWerner-Online.de">http:www.ThomasWerner-Online.de</a> 
+			bezogen werden.</p>	
+	</body>
+</html>
