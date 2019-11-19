@@ -1,6 +1,6 @@
 # Grab2Web
 
-Klickus was one of my hobby projects back on 2004. At that time I had to deal with Borland Delphi 6.0 and Microsoft Direct X for video capturing as part of my first job. The result is this little program. It can grab images from a video source and upload them to a FTP server. grab2web runs in the background and can be reconfigured via a small icon in the system tray.
+This was one of my hobby projects back on 2004. At that time I had to deal with Borland Delphi 6.0 and Microsoft Direct X for video capturing as part of my first job. The result of my private learning efforts is this little program. It can grab images from a video source and upload them to a FTP server. grab2web runs in the background and can be reconfigured via a small icon in the system tray.
 
 Fun fact: Once I let the program run for several days to see if errors occurred in continuous operation. I unexpectedly took pictures of my landlord, who broke into my apartment. 
 
